@@ -13,7 +13,7 @@ gulp.task('browserify', function(){
     })
     .pipe(concat('main.js'))
     //.pipe(uglify())
-    .pipe(gulp.dest('dist/js'));
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('copy', function(){
